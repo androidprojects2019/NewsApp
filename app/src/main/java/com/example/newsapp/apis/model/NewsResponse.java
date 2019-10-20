@@ -1,4 +1,4 @@
-package apis.model;
+package com.example.newsapp.apis.model;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -12,8 +12,7 @@ import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import apis.model.ArticlesItem;
-import apis.model.NewsResponse;
+import com.example.newsapp.apis.model.ArticlesItem;
 
 public class NewsRecyclerAdapter extends RecyclerView.Adapter<NewsRecyclerAdapter.viewHolder> {
     private static final int VIEW_TYPE_LOADING = 0;

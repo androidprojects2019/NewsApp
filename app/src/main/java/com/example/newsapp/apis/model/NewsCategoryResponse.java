@@ -1,18 +1,15 @@
-package apis.model;
-
-import com.google.gson.annotations.SerializedName;
+package com.example.newsapp.apis.model;
 
 import java.util.List;
+ import com.google.gson.annotations.SerializedName;
 
-
- public class NewsSourcesResponse{
+ public class NewsCategoryResponse{
 
 	@SerializedName("sources")
 	private List<SourcesItem> sources;
 
 	@SerializedName("status")
 	private String status;
-
 	@SerializedName("message")
 	private String message;
 
@@ -43,7 +40,7 @@ import java.util.List;
 	@Override
  	public String toString(){
 		return 
-			"NewsSourcesResponse{" + 
+			"NewsCategoryResponse{" + 
 			"sources = '" + sources + '\'' + 
 			",status = '" + status + '\'' + 
 			"}";
